@@ -38,7 +38,7 @@ const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
 // Thread Persistence
 // One thread per (chatId + userId)
-const THREADS_FILE = "/data/threads.json";
+const THREADS_FILE = "./threads.json";
 let threads = {};
 
 if (fs.existsSync(THREADS_FILE)) {
