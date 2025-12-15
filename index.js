@@ -15,7 +15,7 @@ const {
   BOT_SECRET,
   BOT_USERNAME = "ScopeShield_Bot",
   PORT = 3000,
-  RENDER_EXTERNAL_URL,
+  RENDER_EXTERNAL_URL
 } = process.env;
 
 if (
